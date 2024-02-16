@@ -1,0 +1,261 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "c169f71c-ccc1-11ee-9f95-9cb6d0f7a23f",
+    "deck_config_uuid": "c16a86bb-ccc1-11ee-ab8f-9cb6d0f7a23f",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "answerAction": 0,
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "c16a86bb-ccc1-11ee-ab8f-9cb6d0f7a23f",
+            "desiredRetention": 0.9,
+            "dyn": false,
+            "fsrsWeights": [],
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 0
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": false,
+            "timer": 0,
+            "waitForAudio": true,
+            "weightSearch": ""
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [
+        "googletts-5e2bff33-b8796e69-228872c7-560587f2-786a0196.mp3",
+        "googletts-a605f9ee-49735b6b-dd8537b5-c4d88b35-d7e498a2.mp3",
+        "googletts-b31e05b4-828df6ec-5f1190d9-26ea2e11-78468f5c.mp3",
+        "googletts-c1183a72-654fd682-952f0d61-5386e66f-aa3ec894.mp3"
+    ],
+    "name": "Thai Tones",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "c16a922b-ccc1-11ee-b8eb-9cb6d0f7a23f",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.thai {\n  font-size: 20rem;\n}",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 2895695709647617872,
+                    "name": "Symbol",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -8906860416406000058,
+                    "name": "Back",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 5798153309058242788,
+                    "name": "Audio speech",
+                    "ord": 2,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 760845907564069867,
+                    "name": "Audio synthesis",
+                    "ord": 3,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 6738607556149166725,
+                    "name": "Tone",
+                    "ord": 4,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Thai Tones",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "<div class=\"thai\">{{FrontSide}}</div>\n{{Audio synthesis}}\n\n<hr id=answer>\n\n{{Back}} ({{Audio speech}})\n<br>\n{{Tone}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": 1012512327774989600,
+                    "name": "ToneBase",
+                    "ord": 0,
+                    "qfmt": "<div class=\"thai\">{{Symbol}}</div>\n"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "◌่",
+                "mai ek",
+                "ไม้เอก",
+                "[sound:googletts-c1183a72-654fd682-952f0d61-5386e66f-aa3ec894.mp3]",
+                "low"
+            ],
+            "guid": "I0{f(QI4OK",
+            "note_model_uuid": "c16a922b-ccc1-11ee-b8eb-9cb6d0f7a23f",
+            "tags": [
+                "thai",
+                "thai-tones"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "◌้",
+                "mai tho",
+                "ไม้โท",
+                "[sound:googletts-a605f9ee-49735b6b-dd8537b5-c4d88b35-d7e498a2.mp3]",
+                "falling"
+            ],
+            "guid": "q|pE~TvYO1",
+            "note_model_uuid": "c16a922b-ccc1-11ee-b8eb-9cb6d0f7a23f",
+            "tags": [
+                "thai",
+                "thai-tones"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "◌๊",
+                "mai tri",
+                "ไม้ตรี",
+                "[sound:googletts-5e2bff33-b8796e69-228872c7-560587f2-786a0196.mp3]",
+                "high"
+            ],
+            "guid": "pu1EbU#s~Q",
+            "note_model_uuid": "c16a922b-ccc1-11ee-b8eb-9cb6d0f7a23f",
+            "tags": [
+                "thai",
+                "thai-tones"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "◌๋",
+                "mai chattawa",
+                "ไม้จัตวา",
+                "[sound:googletts-b31e05b4-828df6ec-5f1190d9-26ea2e11-78468f5c.mp3]",
+                "rising"
+            ],
+            "guid": "m6Anu[qe$7",
+            "note_model_uuid": "c16a922b-ccc1-11ee-b8eb-9cb6d0f7a23f",
+            "tags": [
+                "thai",
+                "thai-tones"
+            ]
+        }
+    ],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}

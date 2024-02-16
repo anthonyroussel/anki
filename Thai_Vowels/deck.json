@@ -1,0 +1,329 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "c2111816-ccc1-11ee-8d2c-9cb6d0f7a23f",
+    "deck_config_uuid": "c16a86bb-ccc1-11ee-ab8f-9cb6d0f7a23f",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "answerAction": 0,
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "c16a86bb-ccc1-11ee-ab8f-9cb6d0f7a23f",
+            "desiredRetention": 0.9,
+            "dyn": false,
+            "fsrsWeights": [],
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 0
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": false,
+            "timer": 0,
+            "waitForAudio": true,
+            "weightSearch": ""
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [
+        "googletts-1aea2a38-6711e8a6-3734ae22-d516c92b-092f8548.mp3",
+        "googletts-34433080-2a514217-52da4cc4-86b7826e-94b95abd.mp3",
+        "googletts-3d04b532-a741022a-70ecd5ff-96d2b892-a4ffdf96.mp3",
+        "googletts-6e5e0dfd-a21f06c6-c9c91c22-5cb47845-0bbfdf9a.mp3",
+        "googletts-9a309156-9fe0635b-ef15198e-11937cb3-8df1569e.mp3",
+        "googletts-d6bf8e0e-e4abe81b-e00f2ef9-51860521-65a00088.mp3",
+        "googletts-e9972b3c-0c4ed277-22df355f-38947c52-f52afa71.mp3",
+        "googletts-f09a865c-e1c3c648-d0bc7b3d-7cba2759-f4d88ae9.mp3"
+    ],
+    "name": "Thai Vowels",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "c21125b4-ccc1-11ee-aa4a-9cb6d0f7a23f",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.thai {\n  font-size: 10rem;\n}",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -5588222609110587474,
+                    "name": "Symbol",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 1254514588187681127,
+                    "name": "Name",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -7938011203324766380,
+                    "name": "Type",
+                    "ord": 2,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -2468794560738024243,
+                    "name": "Audio speech",
+                    "ord": 3,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -5342012595311926342,
+                    "name": "Audio synthesis",
+                    "ord": 4,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Thai Vowels",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "<div class=\"thai\">{{FrontSide}}</div>\n{{Audio synthesis}}\n\n<hr id=answer>\n\n{{Name}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": -555716056704248838,
+                    "name": "VowelBase",
+                    "ord": 0,
+                    "qfmt": "<div class=\"thai\">{{Symbol}}</div>\n"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "า",
+                "sà-rà&nbsp;a",
+                "long",
+                "สระ อา",
+                "[sound:googletts-9a309156-9fe0635b-ef15198e-11937cb3-8df1569e.mp3]"
+            ],
+            "guid": "kzEX=]kePL",
+            "note_model_uuid": "c21125b4-ccc1-11ee-aa4a-9cb6d0f7a23f",
+            "tags": [
+                "thai",
+                "thai-vowels"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "◌ี",
+                "sà-rà&nbsp;ii",
+                "long",
+                "สระ อี",
+                "[sound:googletts-3d04b532-a741022a-70ecd5ff-96d2b892-a4ffdf96.mp3]"
+            ],
+            "guid": "M7/SNAErJ*",
+            "note_model_uuid": "c21125b4-ccc1-11ee-aa4a-9cb6d0f7a23f",
+            "tags": [
+                "thai",
+                "thai-vowels"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ะ",
+                "sà-rà à",
+                "short",
+                "สระ อะ",
+                "[sound:googletts-6e5e0dfd-a21f06c6-c9c91c22-5cb47845-0bbfdf9a.mp3]"
+            ],
+            "guid": "xs^9PCdL9P",
+            "note_model_uuid": "c21125b4-ccc1-11ee-aa4a-9cb6d0f7a23f",
+            "tags": [
+                "thai",
+                "thai-vowels"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "◌ิ",
+                "sà-rà ì",
+                "short",
+                "สระ อิ",
+                "[sound:googletts-f09a865c-e1c3c648-d0bc7b3d-7cba2759-f4d88ae9.mp3]"
+            ],
+            "guid": "u!Dhs3+!&5",
+            "note_model_uuid": "c21125b4-ccc1-11ee-aa4a-9cb6d0f7a23f",
+            "tags": [
+                "thai",
+                "thai-vowels"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "◌ุ",
+                "sà-rà ù",
+                "short",
+                "สระ อุ",
+                "[sound:googletts-e9972b3c-0c4ed277-22df355f-38947c52-f52afa71.mp3]"
+            ],
+            "guid": "L`O`qAV.}u",
+            "note_model_uuid": "c21125b4-ccc1-11ee-aa4a-9cb6d0f7a23f",
+            "tags": [
+                "thai",
+                "thai-vowels"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>◌ู</div>",
+                "sà-rà uu",
+                "long",
+                "สระ อู",
+                "[sound:googletts-d6bf8e0e-e4abe81b-e00f2ef9-51860521-65a00088.mp3]"
+            ],
+            "guid": "w}:]xd71(G",
+            "note_model_uuid": "c21125b4-ccc1-11ee-aa4a-9cb6d0f7a23f",
+            "tags": [
+                "thai",
+                "thai-vowels"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "เ",
+                "sà-rà ee",
+                "long",
+                "สระ เอ",
+                "[sound:googletts-1aea2a38-6711e8a6-3734ae22-d516c92b-092f8548.mp3]"
+            ],
+            "guid": "zpn@b)zR.u",
+            "note_model_uuid": "c21125b4-ccc1-11ee-aa4a-9cb6d0f7a23f",
+            "tags": [
+                "thai",
+                "thai-vowels"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "เ◌ะ",
+                "sà-rà è",
+                "short",
+                "สระ เอะ",
+                "[sound:googletts-34433080-2a514217-52da4cc4-86b7826e-94b95abd.mp3]"
+            ],
+            "guid": "my*@jiw{lc",
+            "note_model_uuid": "c21125b4-ccc1-11ee-aa4a-9cb6d0f7a23f",
+            "tags": [
+                "thai",
+                "thai-vowels"
+            ]
+        }
+    ],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}

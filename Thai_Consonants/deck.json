@@ -1,0 +1,583 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "c2d8936a-ccc1-11ee-9780-9cb6d0f7a23f",
+    "deck_config_uuid": "c16a86bb-ccc1-11ee-ab8f-9cb6d0f7a23f",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "answerAction": 0,
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "c16a86bb-ccc1-11ee-ab8f-9cb6d0f7a23f",
+            "desiredRetention": 0.9,
+            "dyn": false,
+            "fsrsWeights": [],
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 0
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": false,
+            "timer": 0,
+            "waitForAudio": true,
+            "weightSearch": ""
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 0,
+    "media_files": [
+        "googletts-15a5a1a4-4b399748-7f46aa27-64ff2d95-4b17daba.mp3",
+        "googletts-1987a07c-7f902882-1d2375ab-c15abb20-c2eb00e0.mp3",
+        "googletts-1b7a346d-f3698926-4214f962-94dc5329-abbe84e3.mp3",
+        "googletts-337dcc7e-2ff870c2-f5619fcc-5a6b96a1-279bbd6b.mp3",
+        "googletts-34bcfd15-f277ddcf-6476e40c-3d67ebf7-8ab2ad38.mp3",
+        "googletts-3abb5a43-a665789b-905fde62-9d864401-278992f2.mp3",
+        "googletts-3bf5963b-2e2d61ce-cd11fe95-4a153f76-680d195d.mp3",
+        "googletts-412b2e2c-9971d897-f3548117-6840cf22-56223148.mp3",
+        "googletts-4ce8d1a7-f82d5420-82603cf5-85d57505-e1d2384b.mp3",
+        "googletts-6438b38b-819e880a-a149f224-b8122d76-55c76fd2.mp3",
+        "googletts-7269157d-08ebddea-09447d5a-1a334d41-9dcf1643.mp3",
+        "googletts-e1860b6d-dff376d4-e4da2bba-d8508808-7adf4afc.mp3",
+        "googletts-e4ad4705-e9176299-404e23d6-f1ca4199-c10697b1.mp3",
+        "googletts-e9d20a67-c6f2ac78-889a707e-cc981064-7debdc7a.mp3",
+        "googletts-f8265bd1-527f1e4f-b4b84c9d-6a4d8e33-9ec637ee.mp3"
+    ],
+    "name": "Thai Consonants",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "c2d89e6a-ccc1-11ee-a616-9cb6d0f7a23f",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.thai {\n  font-size: 20rem;\n}",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 6666082746295696744,
+                    "name": "Symbol",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -7713114383194459196,
+                    "name": "Roman",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 9127205658026653577,
+                    "name": "Class",
+                    "ord": 2,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 3476388066388723432,
+                    "name": "Audio speech",
+                    "ord": 3,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -7286530692702551204,
+                    "name": "Audio synthesis",
+                    "ord": 4,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -5744085569353819794,
+                    "name": "Initial",
+                    "ord": 5,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -4186842192565132756,
+                    "name": "Final",
+                    "ord": 6,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -1371069379224752169,
+                    "name": "Name (Thai)",
+                    "ord": 7,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 3955269700454151692,
+                    "name": "Name (English)",
+                    "ord": 8,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Thai Consonants",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "<div class=\"thai\">{{FrontSide}}</div>\n{{Audio synthesis}}\n\n<hr id=answer>\n\n{{Roman}}\n\n<br><br>\nClass: {{Class}}\n<br>\nName: {{Name (Thai)}} - {{Name (English)}}\n\n<br><br>\nInitial/final: {{Initial}} / {{Final}}\n",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": -6689424361374697050,
+                    "name": "ConsonantBase",
+                    "ord": 0,
+                    "qfmt": "<div class=\"thai\">{{Symbol}}</div>"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "น",
+                "naaw nǔu",
+                "low 1",
+                "นอ หนู",
+                "[sound:googletts-4ce8d1a7-f82d5420-82603cf5-85d57505-e1d2384b.mp3]",
+                "n-",
+                "-n",
+                "หนู",
+                "mouse"
+            ],
+            "guid": "iCdEx~RYQW",
+            "note_model_uuid": "c2d89e6a-ccc1-11ee-a616-9cb6d0f7a23f",
+            "tags": [
+                "thai-consonants-low",
+                "thai",
+                "thai-consonants"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ม",
+                "maaw máa",
+                "low 1",
+                "มอ ม้า",
+                "[sound:googletts-3bf5963b-2e2d61ce-cd11fe95-4a153f76-680d195d.mp3]",
+                "m-",
+                "-m",
+                "ม้า",
+                "horse"
+            ],
+            "guid": "p=93Z0wZ[d",
+            "note_model_uuid": "c2d89e6a-ccc1-11ee-a616-9cb6d0f7a23f",
+            "tags": [
+                "thai-consonants-low",
+                "thai",
+                "thai-consonants"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ง",
+                "ngaaw nguu",
+                "low",
+                "งอ งู",
+                "[sound:googletts-e9d20a67-c6f2ac78-889a707e-cc981064-7debdc7a.mp3]",
+                "ng-",
+                "-ng",
+                "งู",
+                "snake"
+            ],
+            "guid": "<ib7R",
+            "note_model_uuid": "c2d89e6a-ccc1-11ee-a616-9cb6d0f7a23f",
+            "tags": [
+                "thai-consonants-low",
+                "thai",
+                "thai-consonants"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ย",
+                "yaaw yák",
+                "low 1",
+                "ยอ ยักษ์",
+                "[sound:googletts-15a5a1a4-4b399748-7f46aa27-64ff2d95-4b17daba.mp3]",
+                "y-",
+                "",
+                "ยักษ์",
+                "giant"
+            ],
+            "guid": ",|11M",
+            "note_model_uuid": "c2d89e6a-ccc1-11ee-a616-9cb6d0f7a23f",
+            "tags": [
+                "thai-consonants-low",
+                "thai",
+                "thai-consonants"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ว",
+                "waaw wǎaen",
+                "low 1",
+                "วอ แหวน",
+                "[sound:googletts-3abb5a43-a665789b-905fde62-9d864401-278992f2.mp3]",
+                "",
+                "w-",
+                "แหวน",
+                "ring"
+            ],
+            "guid": "U,msD",
+            "note_model_uuid": "c2d89e6a-ccc1-11ee-a616-9cb6d0f7a23f",
+            "tags": [
+                "thai-consonants-low",
+                "thai",
+                "thai-consonants"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ก",
+                "gaaw gài",
+                "mid",
+                "กอ ไก่",
+                "[sound:googletts-f8265bd1-527f1e4f-b4b84c9d-6a4d8e33-9ec637ee.mp3]",
+                "g-",
+                "-k",
+                "ไก่",
+                "chicken"
+            ],
+            "guid": "h[<~C",
+            "note_model_uuid": "c2d89e6a-ccc1-11ee-a616-9cb6d0f7a23f",
+            "tags": [
+                "thai-consonants-mid",
+                "thai",
+                "thai-consonants"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ด",
+                "daaw dèk",
+                "mid",
+                "ดอ เด็ก",
+                "[sound:googletts-6438b38b-819e880a-a149f224-b8122d76-55c76fd2.mp3]",
+                "d-",
+                "-t",
+                "เด็ก",
+                "child"
+            ],
+            "guid": "6@j%M",
+            "note_model_uuid": "c2d89e6a-ccc1-11ee-a616-9cb6d0f7a23f",
+            "tags": [
+                "thai-consonants-mid",
+                "thai",
+                "thai-consonants"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "บ",
+                "baaw bai-máai",
+                "mid",
+                "บอ ใบไม้",
+                "[sound:googletts-412b2e2c-9971d897-f3548117-6840cf22-56223148.mp3]",
+                "b-",
+                "-p",
+                "ใบไม้",
+                "leaf"
+            ],
+            "guid": "n*&b",
+            "note_model_uuid": "c2d89e6a-ccc1-11ee-a616-9cb6d0f7a23f",
+            "tags": [
+                "thai-consonants-mid",
+                "thai",
+                "thai-consonants"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ช",
+                "chaaw cháang",
+                "low 2",
+                "ชอ ช้าง",
+                "[sound:googletts-1987a07c-7f902882-1d2375ab-c15abb20-c2eb00e0.mp3]",
+                "ch-",
+                "",
+                "ช้าง",
+                "elephant"
+            ],
+            "guid": "|*yAB",
+            "note_model_uuid": "c2d89e6a-ccc1-11ee-a616-9cb6d0f7a23f",
+            "tags": [
+                "thai-consonants-low",
+                "thai",
+                "thai-consonants"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ซ",
+                "saaw sôo",
+                "low 2",
+                "ซอ โซ่",
+                "[sound:googletts-34bcfd15-f277ddcf-6476e40c-3d67ebf7-8ab2ad38.mp3]",
+                "s-",
+                "",
+                "โซ่",
+                "chain"
+            ],
+            "guid": "b+Q=G",
+            "note_model_uuid": "c2d89e6a-ccc1-11ee-a616-9cb6d0f7a23f",
+            "tags": [
+                "thai-consonants-low",
+                "thai",
+                "thai-consonants"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "พ",
+                "phaaw phaan",
+                "low 2",
+                "พอ พาน",
+                "[sound:googletts-e1860b6d-dff376d4-e4da2bba-d8508808-7adf4afc.mp3]",
+                "ph-",
+                "-p",
+                "พาน",
+                "phan"
+            ],
+            "guid": "16riC",
+            "note_model_uuid": "c2d89e6a-ccc1-11ee-a616-9cb6d0f7a23f",
+            "tags": [
+                "thai-consonants-low",
+                "thai",
+                "thai-consonants"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ฟ",
+                "faaw fan",
+                "low 2",
+                "ฟอ ฟัน",
+                "[sound:googletts-e4ad4705-e9176299-404e23d6-f1ca4199-c10697b1.mp3]",
+                "f-",
+                "-p",
+                "ฟัน",
+                "tooth"
+            ],
+            "guid": "vy3)D",
+            "note_model_uuid": "c2d89e6a-ccc1-11ee-a616-9cb6d0f7a23f",
+            "tags": [
+                "thai-consonants-low",
+                "thai",
+                "thai-consonants"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ค",
+                "khaaw khwaai",
+                "low 1",
+                "คอ ควาย",
+                "[sound:googletts-337dcc7e-2ff870c2-f5619fcc-5a6b96a1-279bbd6b.mp3]",
+                "kh-",
+                "-k",
+                "ควาย",
+                "water buffalo"
+            ],
+            "guid": "C2F6j4NSss",
+            "note_model_uuid": "c2d89e6a-ccc1-11ee-a616-9cb6d0f7a23f",
+            "tags": [
+                "thai-consonants-low",
+                "thai",
+                "thai-consonants"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ท",
+                "thaaw thá-hǎan",
+                "low",
+                "ทอ ทหาร",
+                "[sound:googletts-7269157d-08ebddea-09447d5a-1a334d41-9dcf1643.mp3]",
+                "th-",
+                "-t",
+                "ทหาร",
+                "soldier"
+            ],
+            "guid": "pe>cEpDk_0",
+            "note_model_uuid": "c2d89e6a-ccc1-11ee-a616-9cb6d0f7a23f",
+            "tags": [
+                "thai-consonants-low",
+                "thai",
+                "thai-consonants"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ฮ",
+                "haaw nók-hûuk",
+                "low",
+                "ฮอ&nbsp;นกฮูก",
+                "[sound:googletts-1b7a346d-f3698926-4214f962-94dc5329-abbe84e3.mp3]",
+                "h-",
+                "",
+                "นกฮูก",
+                "owl"
+            ],
+            "guid": "lWn8MZ&^Jl",
+            "note_model_uuid": "c2d89e6a-ccc1-11ee-a616-9cb6d0f7a23f",
+            "tags": [
+                "thai-consonants-low",
+                "thai",
+                "thai-consonants"
+            ]
+        }
+    ],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}

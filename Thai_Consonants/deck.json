@@ -71,6 +71,7 @@
         "googletts-15a5a1a4-4b399748-7f46aa27-64ff2d95-4b17daba.mp3",
         "googletts-1987a07c-7f902882-1d2375ab-c15abb20-c2eb00e0.mp3",
         "googletts-1b7a346d-f3698926-4214f962-94dc5329-abbe84e3.mp3",
+        "googletts-337dba9b-2770e844-b24a030d-9613c341-9064260b.mp3",
         "googletts-337dcc7e-2ff870c2-f5619fcc-5a6b96a1-279bbd6b.mp3",
         "googletts-34bcfd15-f277ddcf-6476e40c-3d67ebf7-8ab2ad38.mp3",
         "googletts-3abb5a43-a665789b-905fde62-9d864401-278992f2.mp3",
@@ -79,6 +80,7 @@
         "googletts-4ce8d1a7-f82d5420-82603cf5-85d57505-e1d2384b.mp3",
         "googletts-6438b38b-819e880a-a149f224-b8122d76-55c76fd2.mp3",
         "googletts-7269157d-08ebddea-09447d5a-1a334d41-9dcf1643.mp3",
+        "googletts-8f4f56eb-bfc6bd8c-28d82381-9235807b-4e3c7f4b.mp3",
         "googletts-e1860b6d-dff376d4-e4da2bba-d8508808-7adf4afc.mp3",
         "googletts-e4ad4705-e9176299-404e23d6-f1ca4199-c10697b1.mp3",
         "googletts-e9d20a67-c6f2ac78-889a707e-cc981064-7debdc7a.mp3",
@@ -575,6 +577,48 @@
                 "thai-consonants-low",
                 "thai",
                 "thai-consonants"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ร",
+                "raaw ruuea",
+                "low",
+                "รอ&nbsp;เรือ",
+                "[sound:googletts-8f4f56eb-bfc6bd8c-28d82381-9235807b-4e3c7f4b.mp3]",
+                "r-",
+                "-n",
+                "เรือ",
+                "boat"
+            ],
+            "guid": "v%;e1i6#WF",
+            "note_model_uuid": "c2d89e6a-ccc1-11ee-a616-9cb6d0f7a23f",
+            "tags": [
+                "thai",
+                "thai-consonants",
+                "thai-consonants-low"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ล",
+                "laaw ling",
+                "low",
+                "ลอ ลิง",
+                "[sound:googletts-337dba9b-2770e844-b24a030d-9613c341-9064260b.mp3]",
+                "l-",
+                "-n",
+                "ลิง",
+                "monkey"
+            ],
+            "guid": "DyX[?mVyjo",
+            "note_model_uuid": "c2d89e6a-ccc1-11ee-a616-9cb6d0f7a23f",
+            "tags": [
+                "thai",
+                "thai-consonants",
+                "thai-consonants-low"
             ]
         }
     ],

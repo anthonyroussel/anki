@@ -13,6 +13,7 @@
             "desiredRetention": 0.9,
             "dyn": false,
             "fsrsWeights": [],
+            "ignoreRevlogsBeforeDate": "",
             "interdayLearningMix": 0,
             "lapse": {
                 "delays": [
@@ -283,9 +284,9 @@
             "guid": "iCdEx~RYQW",
             "note_model_uuid": "c2d89e6a-ccc1-11ee-a616-9cb6d0f7a23f",
             "tags": [
-                "thai-consonants-low",
                 "thai",
-                "thai-consonants"
+                "thai-consonants",
+                "thai-consonants-low"
             ]
         },
         {

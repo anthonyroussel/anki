@@ -74,13 +74,16 @@
         "googletts-337dba9b-2770e844-b24a030d-9613c341-9064260b.mp3",
         "googletts-337dcc7e-2ff870c2-f5619fcc-5a6b96a1-279bbd6b.mp3",
         "googletts-34bcfd15-f277ddcf-6476e40c-3d67ebf7-8ab2ad38.mp3",
+        "googletts-386c288a-d4cb5760-0dbff419-1e4d6fea-5fdca78a.mp3",
         "googletts-3abb5a43-a665789b-905fde62-9d864401-278992f2.mp3",
         "googletts-3bf5963b-2e2d61ce-cd11fe95-4a153f76-680d195d.mp3",
         "googletts-412b2e2c-9971d897-f3548117-6840cf22-56223148.mp3",
+        "googletts-4b8b4340-3030104a-3ea2b21f-3edd1d4c-50725e18.mp3",
         "googletts-4ce8d1a7-f82d5420-82603cf5-85d57505-e1d2384b.mp3",
         "googletts-6438b38b-819e880a-a149f224-b8122d76-55c76fd2.mp3",
         "googletts-7269157d-08ebddea-09447d5a-1a334d41-9dcf1643.mp3",
         "googletts-8f4f56eb-bfc6bd8c-28d82381-9235807b-4e3c7f4b.mp3",
+        "googletts-d55837fa-86131f39-93ba1ea5-12e80d57-8d891e55.mp3",
         "googletts-e1860b6d-dff376d4-e4da2bba-d8508808-7adf4afc.mp3",
         "googletts-e4ad4705-e9176299-404e23d6-f1ca4199-c10697b1.mp3",
         "googletts-e9d20a67-c6f2ac78-889a707e-cc981064-7debdc7a.mp3",
@@ -619,6 +622,69 @@
                 "thai",
                 "thai-consonants",
                 "thai-consonants-low"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "จ",
+                "jaaw jaan",
+                "mid",
+                "จอ&nbsp;จาน",
+                "[sound:googletts-386c288a-d4cb5760-0dbff419-1e4d6fea-5fdca78a.mp3]",
+                "j-",
+                "-t",
+                "จาน",
+                "plate"
+            ],
+            "guid": "GQsGQN4xfA",
+            "note_model_uuid": "c2d89e6a-ccc1-11ee-a616-9cb6d0f7a23f",
+            "tags": [
+                "thai",
+                "thai-consonants",
+                "thai-consonants-mid"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ต",
+                "dtaaw dtao",
+                "mid",
+                "ตอ เต่า",
+                "[sound:googletts-4b8b4340-3030104a-3ea2b21f-3edd1d4c-50725e18.mp3]",
+                "dt-",
+                "-t",
+                "เต่า",
+                "turtle"
+            ],
+            "guid": "G,Y}R2uNZF",
+            "note_model_uuid": "c2d89e6a-ccc1-11ee-a616-9cb6d0f7a23f",
+            "tags": [
+                "thai",
+                "thai-consonants",
+                "thai-consonants-mid"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ป",
+                "bpaaw bplaa",
+                "mid",
+                "ปอ&nbsp;ปลา",
+                "[sound:googletts-d55837fa-86131f39-93ba1ea5-12e80d57-8d891e55.mp3]",
+                "bp-",
+                "-p",
+                "ปลา",
+                "fish"
+            ],
+            "guid": "w0_#H3cdX!",
+            "note_model_uuid": "c2d89e6a-ccc1-11ee-a616-9cb6d0f7a23f",
+            "tags": [
+                "thai",
+                "thai-consonants",
+                "thai-consonants-mid"
             ]
         }
     ],

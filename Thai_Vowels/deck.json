@@ -13,6 +13,7 @@
             "desiredRetention": 0.9,
             "dyn": false,
             "fsrsWeights": [],
+            "ignoreRevlogsBeforeDate": "",
             "interdayLearningMix": 0,
             "lapse": {
                 "delays": [
@@ -71,6 +72,8 @@
         "googletts-1aea2a38-6711e8a6-3734ae22-d516c92b-092f8548.mp3",
         "googletts-34433080-2a514217-52da4cc4-86b7826e-94b95abd.mp3",
         "googletts-3d04b532-a741022a-70ecd5ff-96d2b892-a4ffdf96.mp3",
+        "googletts-3d89e0f8-8fbde18e-87f51395-a8be74dc-8e17249d.mp3",
+        "googletts-6dbbc1d7-47d94906-734f953b-49b20789-ff95ef7e.mp3",
         "googletts-6e5e0dfd-a21f06c6-c9c91c22-5cb47845-0bbfdf9a.mp3",
         "googletts-9a309156-9fe0635b-ef15198e-11937cb3-8df1569e.mp3",
         "googletts-d6bf8e0e-e4abe81b-e00f2ef9-51860521-65a00088.mp3",
@@ -322,6 +325,35 @@
                 "thai",
                 "thai-vowels"
             ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "แ",
+                "sà-rà ae",
+                "long",
+                "สระ แอ",
+                "[sound:googletts-6dbbc1d7-47d94906-734f953b-49b20789-ff95ef7e.mp3]"
+            ],
+            "guid": "Pr>))G-wE!",
+            "note_model_uuid": "c21125b4-ccc1-11ee-aa4a-9cb6d0f7a23f",
+            "tags": [
+                "thai",
+                "thai-vowels"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "โ",
+                "sà-rà oh",
+                "long",
+                "สระ โอ",
+                "[sound:googletts-3d89e0f8-8fbde18e-87f51395-a8be74dc-8e17249d.mp3]"
+            ],
+            "guid": "Hi^?8:=?wW",
+            "note_model_uuid": "c21125b4-ccc1-11ee-aa4a-9cb6d0f7a23f",
+            "tags": []
         }
     ],
     "reviewLimit": null,
